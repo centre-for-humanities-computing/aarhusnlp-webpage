@@ -49,7 +49,7 @@ plugins:
   - search
   - bibtex:
       bib_file: "docs/publications.bib"
-      csl_file: "docs/apa-6th-edition.bib"
+      csl_file: "docs/apa-6th-edition.csl"
 
 extra_javascript:
   - javascripts/mathjax.js
