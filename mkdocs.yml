@@ -2,12 +2,10 @@ site_name: Aarhus NLP
 site_description: 'Natural Language Processing Group at Aarhus University'
 repo_url: https://github.com/centre-for-humanities-computing/
 nav:
-  - Home: 
-      About: index.md
-      People: people.md
-  - Research:
-     - Publications: publications.md
-     - Projects: projects.md
+  - About: index.md
+  - Research: research.md
+  - Software: software.md
+  - People: people.md
 theme:
   name: material
   logo: images/logo.svg
@@ -37,6 +35,7 @@ markdown_extensions:
   - tables
   - pymdownx.details
   - pymdownx.superfences
+  - footnotes
   - pymdownx.tabbed:
       alternate_style: true
   - toc:
@@ -46,7 +45,11 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
+plugins:
+  - search
+  - bibtex:
+      bib_file: "docs/publications.bib"
+      csl_file: "docs/apa-6th-edition.bib"
 
 extra_javascript:
   - javascripts/mathjax.js
