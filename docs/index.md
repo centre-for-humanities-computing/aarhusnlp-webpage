@@ -1,6 +1,11 @@
-<center>
-![Banner](images/logo_w_text.svg){ width="800" align="center"}
-</center>
+---
+hide:
+  - navigation
+  - toc
+---
+<div style="text-align: center;">
+  <img src="images/logo_w_text.svg" width="800" alt="Banner" style="display: block; margin: 0 auto;">
+</div>
 
 
 # 
