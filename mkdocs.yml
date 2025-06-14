@@ -1,6 +1,5 @@
 site_name: Aarhus NLP
 site_description: 'Natural Language Processing Group at Aarhus University'
-repo_url: https://github.com/centre-for-humanities-computing/
 nav:
   - About: index.md
   - Research: research.md
