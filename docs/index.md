@@ -3,9 +3,19 @@ hide:
   - navigation
   - toc
 ---
-<div style="text-align: center;">
-  <img src="images/logo_w_text.svg" width="800" alt="Banner" style="display: block; margin: 0 auto;">
+
+
+<div style="display: flex; align-items: center; gap: 50px; text-align: left; justify-content: center;"> 
+    <img src="images/logo.svg" width="300" alt="AarhusNLP Logo" style="animation: spin 30s linear infinite;"> 
+    <h1 style="font-size: 5rem; font-weight: bold; color: #333; margin: 0;">Aarhus NLP</h1> 
 </div>
+
+<style>
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+</style>
 
 
 # 
