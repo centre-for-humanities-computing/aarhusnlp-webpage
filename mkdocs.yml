@@ -9,7 +9,7 @@ theme:
   name: material
   logo: images/logo.svg
   font:
-    text: Montserrat
+    text: Merriweather Sans
   navigation_depth: 3
   palette:
     primary: 'white'
