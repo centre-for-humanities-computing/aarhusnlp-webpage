@@ -23,6 +23,25 @@
       :material-home: [lex.dk](https://mere.lex.dk/chatbot-faq/)
       
     
+-     **European City$^2$**
+
+      ---
+
+      ![euc2 logo](images/european_city.svg){ align=right width="75" }
+
+      AarhusNLP is funded by the Horizon Europe project EuropeanCity2 - leading work package 5 - which explores agent-based models of democracy in order to provide viable alternative to the challenges that our European democracies are facing. AarhusNLP creates synthetic preference data and uses LLMs to improve simulation realism and complexity.
+
+      :material-home: [eurocity2.eu](https://eurocity2.eu/)
+
+-     **TEXT**
+
+      ---
+
+      ![text logo](https://arts.au.dk/fileadmin/arts/Subsites/TEXT/logo/LOGO_BOMAERKE_ROED.svg){ align=right width="90" }
+
+      We are part of the TEXT a Centre of Excellence funded by the Danish National Research Foundation that investigates text culture. AarhusNLP studies how variation in preferences and cultural context introduces hard problems for artificial intelligence.
+
+      :material-home: [arts.au.dk/en/text](https://arts.au.dk/en/text)
 
 
 </div>
