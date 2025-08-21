@@ -23,7 +23,9 @@ jobs:
           enable-cache: false
 
       - name: Install pandoc
-        run: apt install pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install pandoc
 
       - name: Build and Deploy
         if: github.event_name == 'push'
