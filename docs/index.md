@@ -5,29 +5,15 @@ hide:
 ---
 
 
-<div style="display: flex; align-items: center; gap: 50px; text-align: left; justify-content: center;"> 
-    <img src="images/logo.svg" width="300" alt="AarhusNLP Logo" > 
-    <h1 style="font-size: 5rem; font-weight: bold; color: #333; margin: 0;">Aarhus NLP</h1> 
-</div>
 
-<style>
-@keyframes spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-}
-</style>
-
-
-# 
 
 Welcome to Aarhus NLP.
 We are a research group at Aarhus University investigating and developing Natural Language Processing and AI.
 Our efforts include model evaluation and post-training, representation learning, and development of software libraries for NLP researchers.
-We are also committed to developing state-of-the-art language technology for the Scandinavian countries.
 
 ## Research Areas
 
-<div class="grid cards" markdown>
+<div class="grid cards" style="grid-template-columns: repeat(2, 1fr);" markdown>
 
 -     **Representation Learning** ![Representation Learning](https://x-tabdeveloping.github.io/turftopic/tutorials/images/preview_word_map.png){ width="100" align="right"}
 
@@ -41,7 +27,7 @@ We are also committed to developing state-of-the-art language technology for the
 
       ---
 
-      Good systems do not only work in one language and we believe that especially performance on low-resource languages like Danish is important. Overly focusing on a narrow area, however, might lead to subpar models. We thus seek to encourage multilingual development and often act as language experts in the Scandinavian languages. 
+      Good systems do not only work in one language and we believe that especially performance on low-resource languages and domains are important. Overly focusing on a narrow area, however, might lead to subpar models. We thus seek to encourage multilingual development.
       
     
 -     **Evaluation and Benchmarking** ![Eval](images/mteb_size_vs_perf.png){ width="100" align="right"}
@@ -54,7 +40,7 @@ We are also committed to developing state-of-the-art language technology for the
 
       ---
 
-      NLP systems should be able to serve a wide range of communities, some of which might deviate from the angolphone world not only in linguistics but also in values and cultural considerations. Culturally inappropriate language technology can have profoundly negative consequences when utilized in the real world. Aarhus NLP aim to develop methods for aligning language technology with the needs of a particular community, primarily focusing on a European and Scandinavian context. 
+      NLP systems should be able to serve a wide range of communities, some of which might deviate from the angolphone world not only in linguistics but also in values and cultural considerations. Culturally inappropriate language technology can have profoundly negative consequences when utilized in the real world.
 
 
 </div>
