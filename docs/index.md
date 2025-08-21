@@ -67,3 +67,7 @@ Our efforts include model evaluation and post-training, representation learning,
 
 </div>
 
+<div align="right">
+<img src="images/eu_funding.png" alt="Co-funded by EU" width="250">
+<br>
+</div>

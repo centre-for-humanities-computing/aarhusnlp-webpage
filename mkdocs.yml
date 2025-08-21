@@ -1,5 +1,5 @@
 site_name: Aarhus NLP
-site_description: 'Natural Language Processing Group at Aarhus University'
+site_description: "Natural Language Processing Group at Aarhus University"
 nav:
   - About: index.md
   - Research: research.md
@@ -12,18 +12,19 @@ theme:
     text: Merriweather Sans
   navigation_depth: 3
   palette:
-    primary: 'white'
-    accent: '#655a9f'
+    primary: "white"
+    accent: "#655a9f"
   features:
-      - toc.integrate
-      - navigation.tabs
-      - navigation.tabs.sticky
-      - navigation.sections
-      - navigation.expand
-      - navigation.path
-      - navigation.indexes
-      - toc.follow
-      - content.code.copy
+    - toc.integrate
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - navigation.footer
 markdown_extensions:
   - pymdownx.highlight:
       use_pygments: true
