@@ -49,7 +49,7 @@ Our efforts include model evaluation and post-training, representation learning,
 ## Core Values
 
 
-<div class="grid cards" markdown>
+<div class="grid cards" style="grid-template-columns: repeat(2, 1fr);" markdown>
 
 -     **Open Science and Open Source Software** ![Open Source](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Fopen-source-logo-png-transparent.png&f=1&nofb=1&ipt=df244a26c45b9a0e3f7435d3e6c690dc912901f5aa4e959f5fbfdc5a2cf8d76d){ width="80" align="right"}
 
