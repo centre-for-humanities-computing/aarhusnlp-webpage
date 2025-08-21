@@ -3,7 +3,6 @@
 At Aarhus NLP we regularly engage in developing software, primarily for research or educational purposes.
 The following Python packages were either partly or entirely developed by our group.
 
-<center>
 
 |  | |  |
 | :-: | - | - |
@@ -22,5 +21,3 @@ The following Python packages were either partly or entirely developed by our gr
 | <img align="center" width="60" src="https://raw.githubusercontent.com/KennethEnevoldsen/asent/refs/heads/main/docs/_static/favicon.ico"> | [Asent](https://github.com/KennethEnevoldsen/asent) | An educational library for performing  transparent sentiment analysis |
 |<img align="center" width="60"  src="https://github.com/centre-for-humanities-computing/tweetopic/raw/main/docs/_static/icon.svg"> | [tweetopic](https://github.com/centre-for-humanities-computing/tweetopic) | Blazing Fast implementations of short-text topic models. |
 | | [glovpy](https://github.com/centre-for-humanities-computing/glovpy) | The fastest and lightest Python package for training GloVe word embeddings|
-
-</center>
