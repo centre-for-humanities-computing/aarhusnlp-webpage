@@ -98,6 +98,23 @@ hide:
 
       :material-email: [martonkardos@cas.au.dk](mailto:martonkardos@cas.au.dk) <br>
 
+-     **Balázs Szabó**
+
+      ---
+
+      ![Balazs](https://chc.au.dk/fileadmin/CHC/People/Balazs-Szabo-480x720.jpg){ align=right width="100" }
+
+      Student Data Scientist <br>
+      [Center for Humanities Computing](https://chc.au.dk)
+
+</div>
+
+
+# Alumni
+
+
+<div class="grid cards" markdown>
+
 -     **Laurits Wieslander Lyngbæk**
 
       ---
@@ -117,14 +134,4 @@ hide:
       Student Data Scientist <br>
       [Center for Humanities Computing](https://chc.au.dk)
 
--     **Balázs Szabó**
-
-      ---
-
-      ![Balazs](https://chc.au.dk/fileadmin/CHC/People/Balazs-Szabo-480x720.jpg){ align=right width="100" }
-
-      Student Data Scientist <br>
-      [Center for Humanities Computing](https://chc.au.dk)
-
 </div>
-
