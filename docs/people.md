@@ -7,7 +7,6 @@ hide:
 # People
 
 <div class="grid cards" markdown>
-
 -     **Kristoffer Laigaard Nielbo**
 
       ---
@@ -25,9 +24,9 @@ hide:
 
       ---
 
-      ![Kenny](https://chc.au.dk/fileadmin/CHC/People/kenneth-enevoldsen-480x720.jpg){ align=right width="100" }
+      ![kenneth](https://chc.au.dk/fileadmin/CHC/People/kenneth-enevoldsen-480x720.jpg){ align=right width="100" }
 
-      Postdoc <br>
+      Assistant Professor <br>
       [Center for Humanities Computing](https://chc.au.dk)
 
 
@@ -40,7 +39,7 @@ hide:
 
       ![Simon](https://chc.au.dk/fileadmin/CHC/People/Simon-Aagaard-Enni-480x720.jpg){ align=right width="100" }
 
-      Postdoc <br>
+      Assistant Professor <br>
       [Center for Humanities Computing](https://chc.au.dk)
 
 
@@ -58,6 +57,81 @@ hide:
 
       :material-email: [nicolas.legrand@cas.au.dk](mailto:nicolas.legrand@cas.au.dk) <br>
 
+-     **Zafar Hussain**
+
+      ---
+
+      ![Zafar](https://chc.au.dk/fileadmin/CHC/People/zafar-hussain-480x720.jpg){ align=right width="100" }
+
+      Postdoc <br>
+      [Center for Humanities Computing](https://chc.au.dk)
+
+
+      :material-email: [zafar@cas.au.dk](mailto:zafar@cas.au.dk) <br>
+
+
+-     **Sara Kolding**
+
+      ---
+
+      ![Sara Kolding](https://chc.au.dk/fileadmin/CHC/People/sara-kolding-480x720.jpg){ align=right width="100" }
+
+      PhD Student <br>
+      [Department of Clinical Medicine](https://clin.au.dk/) - PSYCOP
+
+
+      :material-email: [sarakolding@clin.au.dk](mailto:sarakolding@clin.au.dk) <br>
+
+
+-     **Jakob Grøhn Damgaard**
+
+      ---
+
+      ![Jakob Grøhn Damgaard](https://chc.au.dk/fileadmin/CHC/People/jakob-damgaard-480x720.jpg){ align=right width="100" }
+
+      PhD Student <br>
+      [Department of Clinical Medicine](https://clin.au.dk/) - PSYCOP
+
+
+      :material-email: [jakdam@rm.dk](mailto:jakdam@rm.dk) <br>
+
+
+-     **Frida Hæstrup**
+
+      ---
+
+      ![Frida](https://chc.au.dk/fileadmin/CHC/People/Frida-Haestrup-480x720.jpg){ align=right width="100" }
+
+      PhD Student <br>
+      [Department of Clinical Medicine](https://clin.au.dk/) - PSYCOP
+
+
+      :material-email: [frihae@clin.au.dk](mailto:frihae@clin.au.dk) <br>
+
+
+-     **Anders Falkenhard Røn**
+
+      ---
+
+      ![Anders](./images/people/Anders-Falkenhard-Røn.png){ align=right width="100" }
+
+      PhD Student <br>
+      [Center for Humanities Computing](https://chc.au.dk)
+
+
+      :material-email: [afr@cas.au.dk](mailto:afr@cas.au.dk) <br>
+
+
+-     **Aleksandrs Baskakovs**
+
+      ---
+
+      ![Aleksandrs](https://chc.au.dk/fileadmin/CHC/People/aleksandrs-baskakovs-480-720.jpg){ align=right width="100" }
+
+      Research Assistant <br>
+      [Center for Humanities Computing](https://chc.au.dk)
+
+
 
 -     **Márton Kardos**
 
@@ -71,15 +145,34 @@ hide:
 
       :material-email: [martonkardos@cas.au.dk](mailto:martonkardos@cas.au.dk) <br>
 
--     **Laurits Wieslander Lyngbæk**
+-     **Balázs Szabó**
 
       ---
 
-      ![Laurits](https://chc.au.dk/fileadmin/CHC/People/Laurits-lyngbaek-480x720.jpg){ align=right width="100" }
+      ![Balazs](https://chc.au.dk/fileadmin/CHC/People/Balazs-Szabo-480x720.jpg){ align=right width="100" }
 
       Student Data Scientist <br>
       [Center for Humanities Computing](https://chc.au.dk)
 
+
+
+-     **Gustav Idun Sloth**
+
+      ---
+
+      ![Gustav](https://chc.au.dk/fileadmin/CHC/People/Gustav-Idun-Sloth-480x720.jpg){ align=right width="100" }
+
+      Student Data Scientist <br>
+      [Center for Humanities Computing](https://chc.au.dk)
+
+
+
+</div>
+
+# Alumni
+
+
+<div class="grid cards" markdown>
 
 -     **Sofie Mosegaard**
 
@@ -90,14 +183,16 @@ hide:
       Student Data Scientist <br>
       [Center for Humanities Computing](https://chc.au.dk)
 
--     **Balázs Szabó**
+
+-     **Laurits Wieslander Lyngbæk**
 
       ---
 
-      ![Balazs](https://chc.au.dk/fileadmin/CHC/People/Balazs-Szabo-480x720.jpg){ align=right width="100" }
+      ![Laurits](https://chc.au.dk/fileadmin/CHC/People/Laurits-lyngbaek-480x720.jpg){ align=right width="100" }
 
       Student Data Scientist <br>
       [Center for Humanities Computing](https://chc.au.dk)
 
-</div>
 
+
+</div>
