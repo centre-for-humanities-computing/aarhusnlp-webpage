@@ -133,6 +133,33 @@ hide:
 
 
 
+-     **Yevhen Kostiuk**
+
+      ---
+
+      ![Yehven](https://chc.au.dk/fileadmin/CHC/People/yevhen-kostiuk-480x720.jpg){ align=right width="100" }
+
+      Postdoc <br>
+      [Center for Humanities Computing](https://chc.au.dk)
+
+
+      :material-email: [ykost@cas.au.dk](ykost@cas.au.dk) <br>
+
+
+-     **Zafar Hussain**
+
+      ---
+
+      ![Zafar](https://chc.au.dk/fileadmin/CHC/People/zafar-hussain-480x720.jpg){ align=right width="100" }
+
+      Postdoc <br>
+      [Center for Humanities Computing](https://chc.au.dk)
+
+
+      :material-email: [zafar@cas.au.dk](zafar@cas.au.dk) <br>
+
+
+
 -     **Márton Kardos**
 
       ---
