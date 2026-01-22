@@ -50,7 +50,7 @@
 
 <div class="grid cards" style="grid-template-columns: repeat(2, 1fr);" markdown>
 
--     ![MTEB logo](https://raw.githubusercontent.com/embeddings-benchmark/mteb/refs/heads/main/docs/images/mteb_logo/mteb_logo_tight_hfhub.png){ align=right width="50" } **MMTEB - Massive Multilingual Text Embedding Benchmark** <br>
+-     ![MTEB logo](https://raw.githubusercontent.com/embeddings-benchmark/mteb/refs/heads/main/docs/images/logos/mteb_logo/dots-icon.png){ align=right width="50" } **MMTEB - Massive Multilingual Text Embedding Benchmark** <br>
 
       :material-pen: <span style="font-size: 14px"> ***Enevoldsen, K.***, *Chung, I., Kerboua, I.,* ***Kardos, M.*** ... </span> <br>
       ---
