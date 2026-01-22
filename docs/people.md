@@ -84,6 +84,19 @@ hide:
       :material-email: [ykost@cas.au.dk](ykost@cas.au.dk) <br>
 
 
+-     **Erik Perfalk**
+
+      ---
+
+      ![Erik](./images/people/Erik-Perfalk.jpg){ align=right width="100" }
+
+      Postdoc <br>
+      [Department of Clinical Medicine](https://clin.au.dk/) - PSYCOP
+
+
+      :material-email: [erperf@rm.dk](erperf@rm.dk) <br>
+
+
 -     **Sara Kolding**
 
       ---
