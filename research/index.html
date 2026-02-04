@@ -1,0 +1,666 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Natural Language Processing Group at Aarhus University">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../software/">
+      
+      
+      <link rel="icon" href="../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Research - Aarhus NLP</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Merriweather Sans";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="#655a9f">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#projects" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Aarhus NLP" class="md-header__button md-logo" aria-label="Aarhus NLP" data-md-component="logo">
+      
+  <img src="../images/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Aarhus NLP
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Research
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  About
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Research
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../software/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Software
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../people/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  People
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Aarhus NLP" class="md-nav__button md-logo" aria-label="Aarhus NLP" data-md-component="logo">
+      
+  <img src="../images/logo.svg" alt="logo">
+
+    </a>
+    Aarhus NLP
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Research
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Research
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Projects
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publication-highlights" class="md-nav__link">
+    <span class="md-ellipsis">
+      Publication Highlights
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#all-publications" class="md-nav__link">
+    <span class="md-ellipsis">
+      All Publications
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../software/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Software
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../people/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    People
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Research</h1>
+
+<h2 id="projects">Projects</h2>
+<div class="grid cards" style="grid-template-columns: repeat(2, 1fr);">
+<ul>
+<li>
+<p><strong>Danish Foundation Models</strong></p>
+<hr />
+<p><img align="right" alt="DFM logo" src="https://github.com/danish-foundation-models/site/blob/main/docs/_static/icon.png?raw=true" width="100" /></p>
+<p>A project spanning over multiple institutions and Danish universities dedicated to developing state-of-the art Danish language technology.</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg></span> <a href="https://www.foundationmodels.dk/">foundationmodels.dk</a></p>
+</li>
+<li>
+<p><strong>Lex LLM</strong></p>
+<hr />
+<p><img align="right" alt="Lex logo" src="../images/lex_logo.svg" width="100" /></p>
+<p>We are working together with the Danish National Lexicon, to develop a chatbot that will help users effectively navigate the vast amounts of curated knowledge on their website.</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg></span> <a href="https://mere.lex.dk/chatbot-faq/">lex.dk</a></p>
+</li>
+<li>
+<p><strong>European City<span class="arithmatex">\(^2\)</span></strong></p>
+<hr />
+<p><img align="right" alt="euc2 logo" src="../images/european_city.svg" width="75" /></p>
+<p>AarhusNLP is funded by the Horizon Europe project EuropeanCity2 - leading work package 5 - which explores agent-based models of democracy in order to provide viable alternative to the challenges that our European democracies are facing. AarhusNLP creates synthetic preference data and uses LLMs to improve simulation realism and complexity.</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg></span> <a href="https://eurocity2.eu/">eurocity2.eu</a></p>
+</li>
+<li>
+<p><strong>TEXT</strong></p>
+<hr />
+<p><img align="right" alt="text logo" src="https://arts.au.dk/fileadmin/arts/Subsites/TEXT/logo/LOGO_BOMAERKE_ROED.svg" width="90" /></p>
+<p>We are part of the TEXT a Centre of Excellence funded by the Danish National Research Foundation that investigates text culture. AarhusNLP studies how variation in preferences and cultural context introduces hard problems for artificial intelligence.</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg></span> <a href="https://arts.au.dk/en/text">arts.au.dk/en/text</a></p>
+</li>
+</ul>
+</div>
+<h2 id="publication-highlights">Publication Highlights</h2>
+<div class="grid cards" style="grid-template-columns: repeat(2, 1fr);">
+<ul>
+<li>
+<p><img align="right" alt="MTEB logo" src="https://raw.githubusercontent.com/embeddings-benchmark/mteb/refs/heads/main/docs/images/logos/mteb_logo/dots-icon.png" width="50" /> <strong>MMTEB - Massive Multilingual Text Embedding Benchmark</strong> <br></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c-.34.34-.67.67-.68 1-.03.32.31.65.63.96.48.5.95.95.93 1.44s-.53 1-1.04 1.5l-4.13 4.14L15 14.66l4.25-4.24-.96-.96-1.42 1.41-3.75-3.75 3.84-3.83c.39-.39 1.04-.39 1.41 0l2.34 2.34c.39.37.39 1.02 0 1.41M3 17.25l9.56-9.57 3.75 3.75L6.75 21H3z"/></svg></span> <span style="font-size: 14px"> <strong><em>Enevoldsen, K.</em></strong>, <em>Chung, I., Kerboua, I.,</em> <strong><em>Kardos, M.</em></strong> ... </span> <br></p>
+<hr />
+<p>A large-scale multilingual expansion of MTEB, driven mainly by highly-curated community contributions covering 250+ languages.</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg></span> <a href="https://huggingface.co/spaces/mteb/leaderboard">Leaderboard</a> <br>
+  <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></span> <a href="https://github.com/embeddings-benchmark/mteb">Code</a> <br>
+  <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 3H4c-1.11 0-2 .89-2 2v14c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V5c0-1.11-.89-2-2-2M5 7h5v6H5zm14 10H5v-2h14zm0-4h-7v-2h7zm0-4h-7V7h7z"/></svg></span> <a href="https://openreview.net/forum?id=zl3pfz4VCV">Paper</a></p>
+</li>
+<li>
+<p><img align="right" alt="SEB logo" src="https://kennethenevoldsen.github.io/scandinavian-embedding-benchmark/_static/logo.png" width="50" /> <strong>The Scandinavian Embedding Benchmarks: Evaluating Multilingual and Monolingual Text Embedding for Scandinavian languages</strong> <br></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c-.34.34-.67.67-.68 1-.03.32.31.65.63.96.48.5.95.95.93 1.44s-.53 1-1.04 1.5l-4.13 4.14L15 14.66l4.25-4.24-.96-.96-1.42 1.41-3.75-3.75 3.84-3.83c.39-.39 1.04-.39 1.41 0l2.34 2.34c.39.37.39 1.02 0 1.41M3 17.25l9.56-9.57 3.75 3.75L6.75 21H3z"/></svg></span> <span style="font-size: 14px"> <strong><em>Enevoldsen, K.</em></strong>, <strong><em>Kardos, M.</em></strong>, <em>Muennighoff, N.</em> &amp; <strong><em>Nielbo, K. L.</em></strong> </span> <br></p>
+<hr />
+<p>SEB is a comprehensive framework that enables text embedding evaluation for Scandinavian languages across 24 tasks, 10 subtasks, and 4 task categories.</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg></span> <a href="https://kennethenevoldsen.github.io/scandinavian-embedding-benchmark/">Leaderboard</a> <br>
+  <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></span> <a href="https://github.com/KennethEnevoldsen/Scandinavian-Embedding-Benchmark">Code</a> <br>
+  <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 3H4c-1.11 0-2 .89-2 2v14c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V5c0-1.11-.89-2-2-2M5 7h5v6H5zm14 10H5v-2h14zm0-4h-7v-2h7zm0-4h-7V7h7z"/></svg></span> <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/4746bb91bd073ec7eef930d5775122ba-Abstract-Datasets_and_Benchmarks_Track.html">Paper</a></p>
+</li>
+<li>
+<p><img align="right" alt="S3 logo" src="../images/s3.png" width="50" /> <strong><span class="arithmatex">\(S^3\)</span> - Semantic Signal Separation</strong> <br></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c-.34.34-.67.67-.68 1-.03.32.31.65.63.96.48.5.95.95.93 1.44s-.53 1-1.04 1.5l-4.13 4.14L15 14.66l4.25-4.24-.96-.96-1.42 1.41-3.75-3.75 3.84-3.83c.39-.39 1.04-.39 1.41 0l2.34 2.34c.39.37.39 1.02 0 1.41M3 17.25l9.56-9.57 3.75 3.75L6.75 21H3z"/></svg></span> <span style="font-size: 14px"> <strong><em>Kardos, M.</em></strong>, <em>Kostkan, J., Vermillet, A.-Q.,</em> <strong><em>Nielbo, K., Enevoldsen, K.</em></strong> <em>&amp; Rocca, R.</em> </span> <br></p>
+<hr />
+<p>A theory-driven topic modeling approach in neural embedding spaces, which conceptualizes topics as independent axes of semantic space.</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></span> <a href="https://github.com/x-tabdeveloping/turftopic">Code</a> <br>
+  <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 3H4c-1.11 0-2 .89-2 2v14c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V5c0-1.11-.89-2-2-2M5 7h5v6H5zm14 10H5v-2h14zm0-4h-7v-2h7zm0-4h-7V7h7z"/></svg></span> <a href="https://arxiv.org/abs/2406.09556">Paper</a></p>
+</li>
+<li>
+<p><img align="right" alt="Topicwizard logo" src="https://raw.githubusercontent.com/x-tabdeveloping/topicwizard/6970cbe5dc3672cb8ccd83efe821c94ea0e31ff6/docs/_static/icon.svg" width="50" /> <strong><code>topicwizard</code> - a Modern, Model-agnostic Framework for Topic Model Visualization and Interpretation</strong> <br></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c-.34.34-.67.67-.68 1-.03.32.31.65.63.96.48.5.95.95.93 1.44s-.53 1-1.04 1.5l-4.13 4.14L15 14.66l4.25-4.24-.96-.96-1.42 1.41-3.75-3.75 3.84-3.83c.39-.39 1.04-.39 1.41 0l2.34 2.34c.39.37.39 1.02 0 1.41M3 17.25l9.56-9.57 3.75 3.75L6.75 21H3z"/></svg></span> <span style="font-size: 14px"> <strong><em>Kardos, M., Enevoldsen, K. &amp; Nielbo, K.</em></strong> </span> <br></p>
+<hr />
+<p>A framework for model-agnostic topic model interpretation, that provides intuitive and interactive tools that help users examine the complex semantic relations between documents, words and topics learned by topic models.</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></span> <a href="https://github.com/x-tabdeveloping/topicwizard/tree/main">Code</a> <br>
+  <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 3H4c-1.11 0-2 .89-2 2v14c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V5c0-1.11-.89-2-2-2M5 7h5v6H5zm14 10H5v-2h14zm0-4h-7v-2h7zm0-4h-7V7h7z"/></svg></span> <a href="https://arxiv.org/abs/2505.13034">Paper</a></p>
+</li>
+</ul>
+</div>
+<h2 id="all-publications">All Publications</h2>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:kardos2025s3semanticsignal">
+<p>Kardos, M., Kostkan, J., Vermillet, A.-Q., Nielbo, K., Enevoldsen, K., &amp; Rocca, R. (2025). <em><span class="arithmatex">\(S^3\)</span> -- semantic signal separation</em>. Retrieved from <a href="https://arxiv.org/abs/2406.09556">https://arxiv.org/abs/2406.09556</a>&#160;<a class="footnote-backref" href="#fnref:kardos2025s3semanticsignal" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:kardos2025topicwizardmodernmodelagnostic">
+<p>Kardos, M., Enevoldsen, K. C., &amp; Nielbo, K. L. (2025). <em>Topicwizard -- a modern, model-agnostic framework for topic model visualization and interpretation</em>. Retrieved from <a href="https://arxiv.org/abs/2505.13034">https://arxiv.org/abs/2505.13034</a>&#160;<a class="footnote-backref" href="#fnref:kardos2025topicwizardmodernmodelagnostic" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:enevoldsen2025mmteb">
+<p>Enevoldsen, K., Chung, I., Kerboua, I., Kardos, M., Mathur, A., Stap, D., ... Muennighoff, N. (2025). MMTEB: Massive multilingual text embedding benchmark. <em>The Thirteenth International Conference on Learning Representations</em>. Retrieved from <a href="https://openreview.net/forum?id=zl3pfz4VCV">https://openreview.net/forum?id=zl3pfz4VCV</a>&#160;<a class="footnote-backref" href="#fnref:enevoldsen2025mmteb" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:enevoldsen2024the">
+<p>Enevoldsen, K., Kardos, M., Muennighoff, N., &amp; Nielbo, K. (2024). The scandinavian embedding benchmarks: Comprehensive assessment of multilingual and monolingual text embedding. <em>The Thirty-Eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track</em>. Retrieved from <a href="https://openreview.net/forum?id=2WbuKAfOxP">https://openreview.net/forum?id=2WbuKAfOxP</a>&#160;<a class="footnote-backref" href="#fnref:enevoldsen2024the" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:10.1093/pnasnexus/pgaf069">
+<p>Kristensen-McLachlan, R. D., Canavan, M., Kardos, M., Jacobsen, M., &amp; Aarøe, L. (2025). Are chatbots reliable text annotators? sometimes. <em>PNAS Nexus</em>, <em>4</em>(4), pgaf069. <a href="https://doi.org/10.1093/pnasnexus/pgaf069">https://doi.org/10.1093/pnasnexus/pgaf069</a>&#160;<a class="footnote-backref" href="#fnref:10.1093/pnasnexus/pgaf069" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:df0da190df3e491586146925cc5ee9ee">
+<p>Kristensen-McLachlan, R. D., Hicke, R. M. M., Kardos, M., &amp; Thunø, M. (2024). Context is key(NMF):: Modelling topical information dynamics in chinese diaspora media. In W. Haverals, M. Koolen, &amp; L. Thompson (Eds.), <em>Proceedings of the computational humanities research conference 2024</em> (pp. 829--847). Germany: CEUR-WS.&#160;<a class="footnote-backref" href="#fnref:df0da190df3e491586146925cc5ee9ee" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:xiao2025miebmassiveimageembedding">
+<p>Xiao, C., Chung, I., Kerboua, I., Stirling, J., Zhang, X., Kardos, M., ... Muennighoff, N. (2025). <em>MIEB: Massive image embedding benchmark</em>. Retrieved from <a href="https://arxiv.org/abs/2504.10471">https://arxiv.org/abs/2504.10471</a>&#160;<a class="footnote-backref" href="#fnref:xiao2025miebmassiveimageembedding" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:kostkan-etal-2023-odycy">
+<p>Kostkan, J., Kardos, M., Mortensen, J. P. B., &amp; Nielbo, K. L. (2023). OdyCy -- a general-purpose NLP pipeline for Ancient Greek. In S. Degaetano-Ortlieb, A. Kazantseva, N. Reiter, &amp; S. Szpakowicz (Eds.), <em>Proceedings of the 7th joint SIGHUM workshop on computational linguistics for cultural heritage, social sciences, humanities and literature</em> (pp. 128--134). Dubrovnik, Croatia: Association for Computational Linguistics. <a href="https://doi.org/10.18653/v1/2023.latechclfl-1.14">https://doi.org/10.18653/v1/2023.latechclfl-1.14</a>&#160;<a class="footnote-backref" href="#fnref:kostkan-etal-2023-odycy" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="fn:feldkamp-etal-2024-canonical">
+<p>Feldkamp, P., Lassche, A., Kostkan, J., Kardos, M., Enevoldsen, K., Baunvig, K., &amp; Nielbo, K. (2024). Canonical status and literary influence: A comparative study of Danish novels from the modern breakthrough (1870--1900). In M. Hämäläinen, E. Öhman, S. Miyagawa, K. Alnajjar, &amp; Y. Bizzoni (Eds.), <em>Proceedings of the 4th international conference on natural language processing for digital humanities</em> (pp. 140--155). Miami, USA: Association for Computational Linguistics. <a href="https://doi.org/10.18653/v1/2024.nlp4dh-1.14">https://doi.org/10.18653/v1/2024.nlp4dh-1.14</a>&#160;<a class="footnote-backref" href="#fnref:feldkamp-etal-2024-canonical" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: About">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                About
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../software/" class="md-footer__link md-footer__link--next" aria-label="Next: Software">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Software
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["toc.integrate", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.path", "navigation.indexes", "toc.follow", "content.code.copy", "navigation.footer"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
