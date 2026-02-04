@@ -159,6 +159,15 @@ hide:
       [Center for Humanities Computing](https://chc.au.dk)
 
 
+-     **Sylvain Pierre Estebe**
+
+      ---
+
+      ![Aleksandrs](./images/people/Sylvain-Estebe.jpg){ align=right width="100" }
+
+      Research Assistant <br>
+      [Center for Humanities Computing](https://chc.au.dk)
+
 -     **Márton Kardos**
 
       ---
